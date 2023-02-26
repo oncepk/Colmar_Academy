@@ -3,8 +3,40 @@
   padding: 0;
 }
 
+body {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 /* Header */
 
 header {
   padding: 1rem 1.5rem;
+}
+
+header .navbar {
+  display: flex;
+  align-items: center;
+}
+
+header .logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  margin-right: 0rem;
+}
+
+header .menu {
+  display: inline;
+  padding-right: 1rem;
+}
+
+/* Banner */
+
+.banner .img-contrainer {
+  flex: 3;
+}
+
+.banner .bannertext {
+  flex: 2;
 }
