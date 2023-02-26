@@ -5,12 +5,11 @@
   border: 0;
   padding: 0;
 }
-
 html {
   font-size: 16px;
 }
 
-main,
+/* main,
 footer {
   position: relative;
   top: 4rem;
@@ -22,7 +21,7 @@ footer {
 
 .right {
   float: right;
-}
+} */
 
 .image-container {
   overflow: hidden;
@@ -63,10 +62,6 @@ h2 {
   font-weight: 800;
 }
 
-p {
-  font-family: "Poppins", sans-serif;
-}
-
 a {
   text-decoration: none;
   color: #505050;
@@ -77,22 +72,19 @@ a:hover {
   font-size: 110%;
 }
 
-/* Header */
-
-header {
-  position: fixed;
+Header header {
+  /* position: fixed;
   width: 100%;
   height: 4rem;
   background-color: white;
   font-size: 1.25rem;
   line-height: 4.5rem;
   overflow: hidden;
-  opacity: 0.8;
+  opacity: 0.8; */
 }
-
+/* 
 header .left {
   font-size: 1.5rem;
-  font-family: "Montserrat", sans-serif;
   margin-left: 1.5rem;
 }
 
@@ -121,6 +113,64 @@ header span {
 
 header .mobile {
   display: none;
+} */
+
+/*  Header bar section*/
+
+.headerbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.headerbar .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.headerbar .menubar {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+  align-items: center;
+  list-style-type: none;
+  margin-right: 1.5rem;
+}
+
+.headerbar a {
+  text-decoration: none;
+  color: #595959;
+}
+
+/*  Banner Section */
+
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.banner .pic-banner {
+  width: 100%;
+  max-height: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  overflow: hidden;
+}
+
+.pic-banner .pic-banner1 {
+  width: 60%;
+}
+
+.bannertext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
 }
 
 @media only screen and (max-width: 650px) {
