@@ -49,6 +49,7 @@ body {
 }
 
 .banner .pic-banner {
+  display: block;
   width: 100%;
   max-height: auto;
   padding-top: 2rem;
