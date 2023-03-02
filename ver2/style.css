@@ -1,0 +1,65 @@
+/* Universal Styles */
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+/* Header  */
+
+.headerbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.headerbar .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header p {
+  align-items: center;
+}
+
+.headerbar .menubar {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+  align-items: center;
+  list-style-type: none;
+  margin-right: 1.5rem;
+}
+
+.headerbar a {
+  text-decoration: none;
+  color: #595959;
+}
+
+/* Banner section */
+
+#banner {
+  background-color: lightgray;
+}
+
+#banner-pic {
+  width: 100%;
+  padding-left: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#text-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#text-banner1 {
+  padding-left: 1.5rem;
+}
